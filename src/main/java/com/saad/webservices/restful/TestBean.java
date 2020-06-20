@@ -1,10 +1,10 @@
-package com.practice.demo;
+package com.saad.webservices.restful;
 
-public class HelloWorldBean{
+public class TestBean{
 
 	private String message;
 
-	public HelloWorldBean(String message) {
+	public TestBean(String message) {
 		// TODO Auto-generated constructor stub
 		this.message = message;
 	}
@@ -19,7 +19,7 @@ public class HelloWorldBean{
 
 	@Override
 	public String toString() {
-		return "HelloWorldBean [message=" + message + "]";
+		return "TestBean [message=" + message + "]";
 	}
 	
 	
